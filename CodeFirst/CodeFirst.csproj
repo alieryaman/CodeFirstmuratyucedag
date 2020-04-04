@@ -135,6 +135,7 @@
   <ItemGroup>
     <Compile Include="entity\Context.cs" />
     <Compile Include="entity\Kategori.cs" />
+    <Compile Include="entity\Musteri.cs" />
     <Compile Include="entity\Urunler.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -146,6 +147,34 @@
     <Compile Include="Migrations\202004040921029_InitialCreate.designer.cs">
       <DependentUpon>202004040921029_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004040948316_CreateMusterisTable.cs" />
+    <Compile Include="Migrations\202004040948316_CreateMusterisTable.designer.cs">
+      <DependentUpon>202004040948316_CreateMusterisTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004040952237_CreateMusterisehir.cs" />
+    <Compile Include="Migrations\202004040952237_CreateMusterisehir.designer.cs">
+      <DependentUpon>202004040952237_CreateMusterisehir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004040955217_Createranamemusteriunvanadegistir.cs" />
+    <Compile Include="Migrations\202004040955217_Createranamemusteriunvanadegistir.designer.cs">
+      <DependentUpon>202004040955217_Createranamemusteriunvanadegistir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004041001174_Createbirkacdegisiklik.cs" />
+    <Compile Include="Migrations\202004041001174_Createbirkacdegisiklik.designer.cs">
+      <DependentUpon>202004041001174_Createbirkacdegisiklik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004041104183_Categoriaadcolondegisirme.cs" />
+    <Compile Include="Migrations\202004041104183_Categoriaadcolondegisirme.designer.cs">
+      <DependentUpon>202004041104183_Categoriaadcolondegisirme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004041113125_Categoriaadcolondegisirme2.cs" />
+    <Compile Include="Migrations\202004041113125_Categoriaadcolondegisirme2.designer.cs">
+      <DependentUpon>202004041113125_Categoriaadcolondegisirme2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004041115286_Categoriaadcolondegisirmead.cs" />
+    <Compile Include="Migrations\202004041115286_Categoriaadcolondegisirmead.designer.cs">
+      <DependentUpon>202004041115286_Categoriaadcolondegisirmead.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -154,6 +183,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202004040921029_InitialCreate.resx">
       <DependentUpon>202004040921029_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004040948316_CreateMusterisTable.resx">
+      <DependentUpon>202004040948316_CreateMusterisTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004040952237_CreateMusterisehir.resx">
+      <DependentUpon>202004040952237_CreateMusterisehir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004040955217_Createranamemusteriunvanadegistir.resx">
+      <DependentUpon>202004040955217_Createranamemusteriunvanadegistir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004041001174_Createbirkacdegisiklik.resx">
+      <DependentUpon>202004041001174_Createbirkacdegisiklik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004041104183_Categoriaadcolondegisirme.resx">
+      <DependentUpon>202004041104183_Categoriaadcolondegisirme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004041113125_Categoriaadcolondegisirme2.resx">
+      <DependentUpon>202004041113125_Categoriaadcolondegisirme2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004041115286_Categoriaadcolondegisirmead.resx">
+      <DependentUpon>202004041115286_Categoriaadcolondegisirmead.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

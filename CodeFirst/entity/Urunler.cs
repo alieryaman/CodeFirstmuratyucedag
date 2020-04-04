@@ -19,6 +19,7 @@ namespace CodeFirst.entity
         
         public int UrunStok { get; set; }
         public int Aciklama { get; set; }
+        public Kategori Kategori { get; set; }
 
     }
 }
