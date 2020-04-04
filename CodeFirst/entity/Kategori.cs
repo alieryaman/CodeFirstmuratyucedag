@@ -13,7 +13,7 @@ namespace CodeFirst.entity
 
         public int KategoriID{ get; set; }
         public string KategoriAd { get; set; }
-        public string KategoriDetay { get; set; }
+
 
         public ICollection<Urunler> Urunler { get; set; }
     }

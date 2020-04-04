@@ -12,6 +12,6 @@ namespace CodeFirst.entity
         public DbSet<Urunler> Urunlers { get; set; }
         public DbSet<Kategori> Kategories { get; set; }
 
-        public DbSet<Musteri> Musteris { get; set; }
+     
     }
 }

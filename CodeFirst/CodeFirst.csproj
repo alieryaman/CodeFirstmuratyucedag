@@ -175,6 +175,14 @@
     <Compile Include="Migrations\202004041115286_Categoriaadcolondegisirmead.designer.cs">
       <DependentUpon>202004041115286_Categoriaadcolondegisirmead.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004041136475_Categoridetyasil.cs" />
+    <Compile Include="Migrations\202004041136475_Categoridetyasil.designer.cs">
+      <DependentUpon>202004041136475_Categoridetyasil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004041153333_SilMusteri.cs" />
+    <Compile Include="Migrations\202004041153333_SilMusteri.designer.cs">
+      <DependentUpon>202004041153333_SilMusteri.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -204,6 +212,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202004041115286_Categoriaadcolondegisirmead.resx">
       <DependentUpon>202004041115286_Categoriaadcolondegisirmead.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004041136475_Categoridetyasil.resx">
+      <DependentUpon>202004041136475_Categoridetyasil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004041153333_SilMusteri.resx">
+      <DependentUpon>202004041153333_SilMusteri.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
